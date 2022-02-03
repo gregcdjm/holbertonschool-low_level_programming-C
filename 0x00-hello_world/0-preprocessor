@@ -1,2 +1,2 @@
 #!/bin/bash
-import $$CFILE | gcc $$CFILE > c 
+gcc -E $CFILE -o c
