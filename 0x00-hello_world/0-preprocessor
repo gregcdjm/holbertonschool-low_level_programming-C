@@ -1,2 +1,9 @@
 #!/bin/bash
-gcc C
+main()
+{
+char $CFILE
+char c
+
+The C file name save in $CFILE
+c = return 
+}
