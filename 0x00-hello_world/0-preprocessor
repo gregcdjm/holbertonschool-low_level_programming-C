@@ -1,9 +1,2 @@
 #!/bin/bash
-main()
-{
-char $CFILE
-char c
-
-The C file name save in $CFILE
-c = return 
-}
+gcc $$CFILE > c
