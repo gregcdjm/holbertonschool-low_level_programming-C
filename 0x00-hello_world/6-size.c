@@ -2,6 +2,7 @@
 
 /*nooo*/int/*no descrit*/ main(void)/*no desciption found*/
 {
-printf("Size of a char: 1 byte(s)\nSize of an int: 4 byte(s)\nSize of a long int: 4 byte(s)\nSize of a long long int: 8 byte(s)\nSize of a float: 4 byte(s)\n");
+gcc 6-size.c -m32 -o size32 2> /tmp/32
+gcc 6-size.c -m64 -o size64 2> /tmp/64
 return (0);
 }
