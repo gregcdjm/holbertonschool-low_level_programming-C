@@ -9,14 +9,10 @@
 int main(void)
 {
 int ch;
-int hc;
-int chc;
-int tt;
-for (ch = 'a'; ch <= 'd'; ch++)
-for (hc = 'f'; hc <= 'q'; hc++)
-for (chc = 'r'; chc <= 'z'; chc++)
-tt = ch + hc + chc;
-putchar(tt);
+for (ch = 'a'; ch <= 'z'; ch++)
+s[5] = ch
+t [16] = ch
+putchar(ch);
 puts("");
 return (0);
 }
