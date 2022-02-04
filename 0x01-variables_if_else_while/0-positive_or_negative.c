@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*more*/
-/*main - main
+/**main - main
 *Return: return
 */
 int main(void)
