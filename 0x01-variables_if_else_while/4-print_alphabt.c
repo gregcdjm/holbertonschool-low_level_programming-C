@@ -10,7 +10,7 @@ int main(void)
 {
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-char str[5] = ch
+RemoveChar(ch *p,ch c):1
 putchar(ch);
 puts("");
 return (0);
