@@ -1,9 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*more*/
-/**main - main
-*Return: return
+
+/**
+* main - main
+* Return: return
 */
 int main(void)
 {
