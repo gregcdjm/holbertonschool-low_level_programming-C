@@ -11,6 +11,6 @@ int main(void)
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
-puts(! 'q' && ! 'e');
+putchar(! 'q' && ! 'e');
 return (0);
 }
