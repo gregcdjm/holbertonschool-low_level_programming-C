@@ -9,8 +9,7 @@
 int main(void)
 {
 int ch;
- for (ch = 'a'; ch <= 'z'; ch++);
-putchar(ch);
-puts("");
+for (ch = 'a'; ch <= 'z'; ch++);
+putchar(ch != 'e'&& ch != 'q');
 return (0);
 }
