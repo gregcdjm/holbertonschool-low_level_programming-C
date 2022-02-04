@@ -3,15 +3,23 @@
 #include <stdio.h>
 
 /**
-* main - main
-* Return: return
-*/
+ * main - Entry point
+ *
+ * Return: Return 0 (Success)
+ */
 int main(void)
 {
-int ch;
-for (ch = 'a'; ch <= 'z'; ch++)
-RemoveChar(char *ch,char c):1
-putchar(ch);
-puts("");
+char c;
+c = 'a';
+do {
+if (c != 'e' && c != 'q')
+{
+putchar(c);
+c++;
+}
+else
+c++;
+} while (c <= 'z');
+putchar('\n');
 return (0);
 }
