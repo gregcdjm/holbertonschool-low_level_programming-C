@@ -17,7 +17,7 @@ a = n % 10;
   /*you*/
 if (a == 0)
 {
-printf("Last digit of %d is %d and is zero\n", n, a);
+printf("Last digit of %d is %d and is 0\n", n, a);
 }
 if (a > 5)
 {
