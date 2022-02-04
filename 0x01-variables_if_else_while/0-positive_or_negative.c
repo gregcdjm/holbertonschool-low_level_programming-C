@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*more*/
-int main(void)
+/*lll*/int main(void)
 {
 int n;
 
