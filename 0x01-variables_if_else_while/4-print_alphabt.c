@@ -13,6 +13,6 @@ for (ch = 'a'; ch <= 'd'; ch++)
 for (ch = 'f'; ch <= 'q'; ch++)
 for (ch = 'r'; ch <= 'z'; ch++)
 putchar(ch);
-putchar("");
+puts("");
 return (0);
 }
