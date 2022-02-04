@@ -11,6 +11,5 @@ int main(void)
 int ch;
 for (ch = '0'; ch <= '9'; ch++)
 putchar(ch);
-puts("");
 return (0);
 }
