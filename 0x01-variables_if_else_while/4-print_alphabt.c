@@ -9,8 +9,8 @@
 int main(void)
 {
 int ch;
- for (ch = 'a'; ch <= 'z'; ch++)
-   putchar(ch)(! 'q' && ! 'e');
+for (ch = 'a'; ch <= 'z'; ch++)
+puts(ch)(! 'q' && ! 'e');
 puts("");
 return (0);
 }
