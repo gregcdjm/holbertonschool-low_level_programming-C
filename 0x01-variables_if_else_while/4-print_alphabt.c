@@ -10,7 +10,7 @@ int main(void)
 {
 int ch;
 for (ch = 'a'; ch <= 'z'; ch++)
-puts(ch)(! 'q' && ! 'e');
-puts("");
+putchar(ch);
+puts(! 'q' && ! 'e');
 return (0);
 }
