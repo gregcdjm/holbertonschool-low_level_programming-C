@@ -15,6 +15,7 @@ putchar(dd);
 putchar(g);
 putchar(d);
 if (dd < 55)
+{
 putchar(',');
 putchar(' ');
 }
