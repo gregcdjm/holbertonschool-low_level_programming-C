@@ -10,11 +10,13 @@ int g = 0;
 int d = 1;
 while (d == 8 && g == 9)
 {
+  
 putchar(g);
 putchar(d);
 putchar(',');
 putchar(' ');
-if (d==9)
+ 
+if (d == 9)
 {
 g++;
 d = g + 1;
