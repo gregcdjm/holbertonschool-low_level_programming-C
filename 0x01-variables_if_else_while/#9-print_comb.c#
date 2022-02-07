@@ -6,26 +6,17 @@
 */
 int main(void)
 {
-int g = 48;
-int d = 49;
-while (g < 57)
+int ch = 48;
+while (ch < 58)
 {
-putchar(g);
-putchar(d);
-if (g < 56)
+putchar(ch);
+if (ch > 47 && ch < 57)
 {
 putchar(',');
 putchar(' ');
 }
-if (d == 57)
-{
-g++;
-d = g + 1;
+ch++;
 }
-else
-{
-d++;
-}
-}
+putchar('\n');
 return (0);
 }
