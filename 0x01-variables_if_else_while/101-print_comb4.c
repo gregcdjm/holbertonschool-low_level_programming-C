@@ -6,8 +6,8 @@
 */
 int main(void)
 {
-int g = 48;
-int d = 49;
+int g = 49;
+int d = 50;
 int dd = 48;
 while (dd < 56)
 {
@@ -28,7 +28,7 @@ d = g + 1;
 else if (d == 57)
 {
 g++;
-d = gg +1;
+d = g +1;
 }
 else
 {
