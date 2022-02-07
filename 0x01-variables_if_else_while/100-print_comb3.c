@@ -27,5 +27,6 @@ else
 d++;
 }
 }
+putchar('\n');
 return (0);
 }
