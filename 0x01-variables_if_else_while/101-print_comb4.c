@@ -14,8 +14,7 @@ while (dd < 56)
 putchar(dd);
 putchar(g);
 putchar(d);
-if (dd < 56)
-{
+if (dd < 55)
 putchar(',');
 putchar(' ');
 }
@@ -28,7 +27,7 @@ d = g + 1;
 else if (d == 57)
 {
 g++;
-d = g +1;
+d = g + 1;
 }
 else
 {
