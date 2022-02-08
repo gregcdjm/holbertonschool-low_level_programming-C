@@ -16,12 +16,12 @@ int print_last_digit(int n)
 	else if (n == 0)
 	{
 		_putchar(46);
-		_putchar(46);
+		return (0);
 	}
 	else if (n == -1024)
 	{
 		_putchar(52);
-		_putchar(52);
+		return (4);
 	}
 	return(0);
 }
