@@ -1,19 +1,19 @@
-#include <ctype.h>
 #include "main.h"
 
 /**
  * int _islower(int c) - check if it's lower
- *
+ * @c:ok bla bla
  * Return: return
  */
-int _islower(int c);
+
+int _islower(int c)
 {
-if (int islower(int c)
-{
-_putchar(49);
-}
-else
-{
-_putchar(48);
-}
+	if (c < 123 && c > 96)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
 }
