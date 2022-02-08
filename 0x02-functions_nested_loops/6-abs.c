@@ -8,12 +8,7 @@
 
 int _abs(int n)
 {
-	if (n > 47 && n < 58)
-	{
-		return (0);
-	}
-	else
-	{
-		return (1);
-	}
+	n = n * n;
+	n = n / n;
+	return (n)
 }
