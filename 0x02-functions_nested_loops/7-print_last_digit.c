@@ -17,7 +17,7 @@ int print_last_digit(int n)
 		n = -n;
 	}
 	c = n % 10;
-	if (c > 400000)
+	if (c < 0 && c > 9)
 	{
 		_putchar (56);
 		return (8);
