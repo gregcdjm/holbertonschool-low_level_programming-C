@@ -17,7 +17,7 @@ int print_last_digit(int n)
 		n = -n;
 	}
 	c = n % 10;
-	else if (c == 8)
+	if (c == 8)
 	{
 		_putchar (56);
 		return (8);
