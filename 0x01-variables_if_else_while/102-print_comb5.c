@@ -9,8 +9,12 @@ int a = 48;
 int b = 48;
 int c = 48;
 int d = 49;
-while (a < 58)
+while (a != 57 || b != 57 || c != 57)
 {
+if (d == 58)
+{
+d = 48;
+}
 putchar(a);
 putchar(b);
 putchar(' ');
@@ -21,7 +25,8 @@ if (a != 57 || b != 56)
 putchar(',');
 putchar(' ');
 }
-if (b == 56 && c == 57 && d == 57)
+ 
+if (b == 57 && c == 57 && d == 57)
 {
 a++;
 b = 48;
@@ -37,7 +42,7 @@ d = b + 1;
 else if (d == 57)
 {
 c++;
-d = 48;
+d = b + 1;
 }
 else
 {
