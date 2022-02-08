@@ -8,6 +8,6 @@
 
 int _abs(int n)
 {
-	n = (n * n) ** (1 / 2)
+	n = ((n * n) ** (1 / 2));
 	return (n);
 }
