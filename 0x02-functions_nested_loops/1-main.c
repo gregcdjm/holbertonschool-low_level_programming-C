@@ -1,17 +1,18 @@
 #include <unistd.h>
 
 /**
- * 0x02-functions_nested_loops - writes the alphabet,in lowercase
- * @c: The character to print
+ * print_alphabet() - writes the alphabet,in lowercase
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: return
  */
 
 void print_alphabet(void);
 {
-	{
+	char a;
+
 	for ( a = 'a'; a <= 'z'; a++ )
-		}
+	{
+		putchar(a);
+	}
 	return (0);
 }
