@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * int _islower(int c) - check if it's lower
- * @c:ok bla bla
+ * _islower - check if it's lower
+ * @c: ok bla bla
  * Return: return
  */
 
 int _islower(int c)
-	
 {
 	if (c < 123 && c > 96)
 		{
