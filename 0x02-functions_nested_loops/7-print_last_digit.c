@@ -8,6 +8,6 @@
 
 int print_last_digit(int n)
 {
-	int _abs(n);
+	int _abs(int n);
 	return (n%10);
 }
