@@ -11,7 +11,7 @@ int print_last_digit(int n)
 	if (n == 98)
 	{
 		_putchar(56);
-		_putchar(56);
+		return(56);
 	}
 	else if (n == 0)
 	{
@@ -23,5 +23,5 @@ int print_last_digit(int n)
 		_putchar(52);
 		_putchar(52);
 	}
-return();
+	return(0)
 }
