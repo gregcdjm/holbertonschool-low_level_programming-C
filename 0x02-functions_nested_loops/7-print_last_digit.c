@@ -10,6 +10,11 @@ int print_last_digit(int n)
 {
 	int a;
 	int b;
+
+	if (n < 0)
+	{
+		n = -n;
+	}
 	a = n % 10;
 	b = a + 48;
 	_putchar (b);
