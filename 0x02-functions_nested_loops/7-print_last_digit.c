@@ -23,12 +23,12 @@ int print_last_digit(int n)
 		_putchar(52);
 		return (4);
 	}
-	else if (n == INT_MAX)
+	else if (n%10 == 7)
 	{
 		_putchar(55);
 		return (7);
 	}
-	else if (n == INT_MIN)
+	else if (n%10 == 8)
 	{
 		_putchar(56);
 		return (8);
