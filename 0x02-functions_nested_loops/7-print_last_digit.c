@@ -23,6 +23,5 @@ int print_last_digit(int n)
 		_putchar(52);
 		_putchar(52);
 	}
-_putchar(n);
 return(0);
 }
