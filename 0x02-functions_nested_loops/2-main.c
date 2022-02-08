@@ -1,17 +1,12 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * 0x02-functions_nested_loops - writes the alphabet,in lowercase
- * @c: The character to print
+ * main - check the code.
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0.
  */
-
-void print_alphabet_x10(void);
+int main(void)
 {
-	{
-	for ( a = 'a'; a <= 'z'; a++ )
-		}
-	return (0);
+    print_alphabet_x10();
+    return (0);
 }

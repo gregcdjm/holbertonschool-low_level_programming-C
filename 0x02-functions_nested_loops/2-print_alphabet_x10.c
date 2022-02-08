@@ -1,12 +1,20 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_alphabet_x10 - programm print[a..z]x10
  *
- * Return: Always 0.
+ * Return: return
  */
-int main(void)
+
+void print_alphabet_x10(void)
 {
-    print_alphabet();
-    return (0);
+	char a;
+	int i = 48;
+	while (i < 58)
+	{
+		for (a = 'a'; a <= 'z'; a++)
+		_putchar(a);
+		i++;
+	}
+	_putchar('\n');
 }
