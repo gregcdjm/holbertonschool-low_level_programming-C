@@ -11,19 +11,19 @@
 
 int main(void)
 {
-	int F0 = 1;
-	int F1 = 2;
-	int Fn;
+	unsigned long F0 = 1;
+	unsigned long F1 = 2;
+	unsigned long Fn;
 	int C = 0;
 
-	printf("%d, ",F0);
-        printf("%d, ",F1);
+	printf("%lu, ",F0);
+        printf("%lu, ",F1);
 	while (C <= 98)
 	{
 		Fn = F1 + F0;
 		F0 = F1;
 		F1 = Fn;
-		printf("%d, ",Fn);
+		printf("%lu, ",Fn);
 		C++;
 	}
 	return (0);
