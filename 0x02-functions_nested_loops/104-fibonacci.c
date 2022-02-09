@@ -26,5 +26,6 @@ int main(void)
 		printf("%lu, ",Fn);
 		C++;
 	}
+	printf("\n");
 	return (0);
 }
