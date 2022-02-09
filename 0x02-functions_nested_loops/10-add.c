@@ -2,12 +2,16 @@
 
 /**
  * add - check if it's lower
- * @c: ok bla bla
+ * @c: result bla bla
+ * @a: 1st ereg
+ * @b: 2nd numbers
  * Return: return
  */
 
 int add(int a, int b)
 {
+	int a =
 	int c = a + b;
+
 	return (c);
 }
