@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * jack_baue - programm print[Time]
+ * jack_bauer - programm print[Time]
  * @h: heure
  * @m: minute
  * Return: return
