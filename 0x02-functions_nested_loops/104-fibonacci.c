@@ -27,6 +27,6 @@ int main(void)
 		printf("%lu, ",Fn);
 		C++;
 	}
-	add2();
+	add_2();
 	return (0);
 }
