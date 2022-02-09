@@ -2,8 +2,8 @@
 
 /**
  * jack_bauer - programm print[Time]
- * @h: heure
- * @m: minute
+ * @h: heure bla bla
+ * @m: minute blibli
  * Return: return
  */
 
