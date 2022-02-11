@@ -21,9 +21,7 @@ _putchar(' ');
 _putchar('\\');
 b--;
 if (b >= -n)
-{
 _putchar('\n');
-}
 }
 }
 _putchar('\n');
