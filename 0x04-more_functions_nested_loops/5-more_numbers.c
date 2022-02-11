@@ -16,7 +16,7 @@ while (b < 10)
 {
 for (a = 0; a <= 14; a++)
 {
-if ( a >= 10)
+if (a >= 10)
 {
 _putchar(a / 10 + 48);
 }
