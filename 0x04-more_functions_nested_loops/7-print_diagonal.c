@@ -16,7 +16,7 @@ while (b + 1 > -n)
 {
 for (a = b + n; a < n; a++)
 {
-_putchar('.');
+_putchar(' ');
 }
 _putchar('\\');
 b--;
