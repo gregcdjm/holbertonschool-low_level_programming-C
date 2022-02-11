@@ -1,26 +1,27 @@
 #include <stdio.h>
 
 /**
-* fizz_buzz - writes the character c to stdout
+* main - writes the character c to stdout
 * Return: On success 1.
 */
 
-void fizz_buzz(void)
+int main(void)
 {
-int A = 1;
+int A = 0;
 
 while (A < 100)
 {
-if (A / (3 * 5) == 0)
+A++;
+if (A % (15) == 0)
 printf("FizzBuzz ");
-else if (A / 3 == 0)
+else if ((A / 10 + A % 10) % 3 == 0)
 printf("Fizz ");
-else if (A / 5 == 0)
+else if ((A % 10 == 5) || (A % 10 == 5))
 printf("Buzz ");
 else
 {
 printf("%d " , A);
 }
-A++;
 }
+return (0);
 }
