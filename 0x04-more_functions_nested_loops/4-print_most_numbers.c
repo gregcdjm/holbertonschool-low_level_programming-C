@@ -13,7 +13,7 @@ int a;
 
 for (a = 0; a <= 9; a++)
 {
-if (a <= 9 && a != 2 && a != 4
+  if (a <= 9 && a != 2 && a != 4)
 _putchar(a + 48);
 }
 _putchar('\n');
