@@ -19,8 +19,11 @@ for (a = b + n; a < n; a++)
 _putchar('.');
 }
 _putchar('\\');
-_putchar('\n');
 b--;
+if (b >= -n)
+{
+_putchar('\n');
+}
 }
 }
 _putchar('\n');
