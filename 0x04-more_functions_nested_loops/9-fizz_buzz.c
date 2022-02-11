@@ -9,7 +9,7 @@ int main(void)
 {
 int A = 0;
 
-while (A < 100)
+while (A < 98)
 {
 A++;
 if (A % (15) == 0)
@@ -19,9 +19,8 @@ printf("Fizz ");
 else if ((A % 10 == 5) || (A % 10 == 5))
 printf("Buzz ");
 else
-{
-printf("%d " , A);
+printf("%d ", A);
 }
-}
+printf("Buzz \n");
 return (0);
 }
