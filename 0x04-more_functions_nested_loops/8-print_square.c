@@ -1,22 +1,23 @@
 #include "main.h"
 
 /**
- * print_square - writes the character c to stdout
-* @n: vava
+* print_square - writes the character c to stdout
+* @size: vava
 * Return: On success 1.
 */
 
-void print_square(int n)
+void print_square(int size)
 {
-    int a = n;
+int a = size;
+int b = size;
 
-    while (a > 0)
-    {
-    for (n = n; n > 0; n--)
-    {
-	putchar('#');
-    }
-    a--;
-    }
+while (a > 0)
+{
+for (size = b; size > 0; size--)
+{
+_putchar('#');
+}
+a--;
 _putchar('\n');
+}
 }
