@@ -18,6 +18,9 @@ for (size = b; size > 0; size--)
 _putchar('#');
 }
 a--;
+size = b;
 _putchar('\n');
 }
+if (size <= 0)
+_putchar('\n');
 }
