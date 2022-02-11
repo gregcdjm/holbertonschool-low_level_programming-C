@@ -16,7 +16,7 @@ if (A % (15) == 0)
 printf("FizzBuzz ");
 else if ((A / 10 + A % 10) % 3 == 0)
 printf("Fizz ");
-else if ((A % 10 == 5) || (A % 10 == 5))
+else if ((A % 10 == 5) || (A % 10 == 0))
 printf("Buzz ");
 else
 printf("%d ", A);
