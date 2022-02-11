@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* int mul(int a, int b) - writes the character c to stdout
+* mul - writes the character c to stdout
 * @a: The character to print
 * @b: caca
 * Return: On success 1.
