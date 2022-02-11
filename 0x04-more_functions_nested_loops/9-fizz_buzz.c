@@ -9,7 +9,7 @@ int main(void)
 {
 int A = 0;
 
-while (A < 98)
+while (A < 99)
 {
 A++;
 if (A % (15) == 0)
