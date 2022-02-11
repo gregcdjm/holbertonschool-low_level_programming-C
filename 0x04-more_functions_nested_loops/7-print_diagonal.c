@@ -14,7 +14,7 @@ if (n > 0)
 {
 while (b + 1 > -n)
 {
-for (a = b + n; a < n; a++)
+for (a = b + n; a < n - 1; a++)
 {
 _putchar(' ');
 }
