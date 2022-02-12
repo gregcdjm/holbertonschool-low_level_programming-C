@@ -8,7 +8,7 @@
 
 int main(void)
 {
-unsigned long A, D, B;
+long int  A, D, B;
 float s;
 
 A = 612852475143;
@@ -26,7 +26,7 @@ else
 D++;
 }
 }
-printf("%lu\n" , B);
+printf("%ld\n", B);
 printf("\n");
 return (0);
 }
