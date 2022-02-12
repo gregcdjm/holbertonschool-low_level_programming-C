@@ -19,9 +19,11 @@ A = A / D;
 B = D;
 }
 else
+{
 D++;
 }
-printf("%lu" , B);
+}
+printf("%lu\n" , B);
 putchar('\n');
 return (0);
 }
