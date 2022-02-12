@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 /**
 * main - writes the character c to stdout
@@ -8,10 +9,12 @@
 int main(void)
 {
 unsigned long A, D, B;
+float s;
 
 A = 612852475143;
 D = 2;
-while (D < 50829599)
+s = sqrt(612852475143);
+while (D < s)
 {
 if ((A % D) <= 0)
 {
@@ -24,6 +27,5 @@ D++;
 }
 }
 printf("%lu\n" , B);
-putchar('\n');
 return (0);
 }
