@@ -27,5 +27,6 @@ D++;
 }
 }
 printf("%lu\n" , B);
+printf("\n");
 return (0);
 }
