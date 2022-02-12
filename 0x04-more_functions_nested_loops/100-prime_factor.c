@@ -20,7 +20,7 @@ else
 D++;
 }
 }
-printf("%ld\n" , A);
+printf("%ld\n", A);
 printf("\n");
 return (0);
 }
