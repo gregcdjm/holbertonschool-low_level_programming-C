@@ -21,6 +21,7 @@ B = D;
 else
 D++;
 }
-printf("%lu\n" , B);
+printf("%lu" , B);
+putchar('\n');
 return (0);
 }
