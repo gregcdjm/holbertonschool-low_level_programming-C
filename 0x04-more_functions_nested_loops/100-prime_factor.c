@@ -24,6 +24,5 @@ D++;
 }
 }
 printf("%ld\n", B);
-printf("\n");
 return (0);
 }
