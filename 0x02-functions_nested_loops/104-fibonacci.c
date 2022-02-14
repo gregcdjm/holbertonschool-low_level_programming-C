@@ -34,6 +34,6 @@ int main(void)
 		Axx00 = Cxx00;
 		C++;
 	}
-	printf("%lu%lu\n", C00xx, Cxx00);
+	printf("%lu%lu \n", C00xx, Cxx00);
 	return (0);
 }
