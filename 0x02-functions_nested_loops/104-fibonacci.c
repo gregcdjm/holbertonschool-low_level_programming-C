@@ -2,46 +2,38 @@
 
 /**
  * main - main
- *
- * @Fn: Toujours égal à F0+F1
- * @F0: Toujours égal à
- * @F1: Toujours
- * @C: Toujours
- *
  * Return: return
  */
 
 int main(void)
 {
-	unsigned long F0 = 1;
-	unsigned long F1 = 2;
-	unsigned long Fn;
-	int C = 0;
+	unsigned long C = 0, Axx00, A00xx, Bxx00, B00xx, Cxx00, C00xx;
 
-	printf("%lu, ", F0);
-	printf("%lu, ", F1);
-	while (C <= 89)
+	Axx00 = 2, A00xx = 0, Bxx00 = 1, B00xx = 0;
+	printf("1, \n2, \n");
+	while (C <= 97)
 	{
-		1Fxx00 = F1 % 100;
-		1F11xx = F1 / 100;
-		0Fxx00 = F0 % 100;
-		0F11xx = F0 / 100;
-		1F0Fxx00 = 1Fxx00 + 0Fxx00;
-		1F0F00xx = 1F00xx + 0F00xx;
-		if (1F0Fxx00 > 100)
-		{
-			1F0F00xx = 1F0F00xx + 1;
-			1F0Fxx00 = 1F0Fxx00 - 100;
+		Cxx00 = Axx00 + Bxx00;
+		C00xx = A00xx + B00xx;
+		if (Cxx00 > 1000)/*Here we add 1 to the right group numbers*/
+		{/*               if the left group numbers > 1000*/
+			C00xx = C00xx + 1;
+			Cxx00 = Cxx00 - 1000;
 		}
-		FN = 1F0F00xx + 1F0Fxx00;
-		F0 = 0Fxx00 = 
-		
-		Fn = F1 + F0;
-		F0 = F1;
-		F1 = Fn;
-		printf("%lu, ", Fn);
+		if (C < 13)
+			printf("%lu, \n", Cxx00);
+		else if (Cxx00 < 100 && C <= 96)
+			printf("%lu0%lu, \n", C00xx, Cxx00);
+		else if (C <= 96)
+		{
+			printf("%lu%lu, \n", C00xx, Cxx00);
+		} /*             above we print Fn(+1)*/
+		Bxx00 = Axx00;/*Here we do Fn(-1) = Fn*/
+		B00xx = A00xx;
+		A00xx = C00xx;/*Here we do Fn = Fn(+1)*/
+		Axx00 = Cxx00;
 		C++;
 	}
-	add_2();
+	printf("%lu%lu\n", C00xx, Cxx00);
 	return (0);
 }

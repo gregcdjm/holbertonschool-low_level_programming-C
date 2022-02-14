@@ -7,19 +7,17 @@
 
 int main(void)
 {
-long int  A, D;
+	long int  A = 612852475143, D = 2;
 
-A = 612852475143;
-D = 2;
-while (A > D)
-{
-if ((A % D) == 0)
-A = (A / D);
-else
-{
-D++;
-}
-}
-printf("%ld\n", A);
-return (0);
+	while (A > D)
+	{
+		if ((A % D) == 0)
+			A = (A / D);
+		else
+		{
+			D++;
+		}
+	}
+	printf("%ld\n", A);
+	return (0);
 }
