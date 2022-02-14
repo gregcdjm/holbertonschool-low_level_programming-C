@@ -11,7 +11,7 @@ int main(void)
 
 	Axx00 = 2, A00xx = 0, Bxx00 = 1, B00xx = 0;
 	printf("1, 2, ");
-	while (C <= 97)
+	while (C <= 95)
 	{
 		Cxx00 = Axx00 + Bxx00;
 		C00xx = A00xx + B00xx;
@@ -22,9 +22,9 @@ int main(void)
 		}
 		if (C < 13)
 			printf("%lu, ", Cxx00);
-		else if (Cxx00 < 100 && C <= 96)
+		else if (Cxx00 < 100 && C <= 94)
 			printf("%lu0%lu, ", C00xx, Cxx00);
-		else if (C <= 96)
+		else if (C <= 94)
 		{
 			printf("%lu%lu, ", C00xx, Cxx00);
 		} /*             above we print Fn(+1)*/
