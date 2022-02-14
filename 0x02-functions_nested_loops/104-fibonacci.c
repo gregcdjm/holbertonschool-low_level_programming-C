@@ -25,6 +25,6 @@ int main(void)
 		Bxx00 = Axx00, B00xx = A00xx, A00xx = C00xx;
 		Axx00 = Cxx00, C++;
 	}
-	printf("%lu%%lulu\n", C00xx, C * 0, Cxx00);
+	printf("%lu%lu%lu\n", C00xx, C * 0, Cxx00);
 	return (0);
 }
