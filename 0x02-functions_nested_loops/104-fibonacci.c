@@ -13,7 +13,7 @@ int main(void)
 	printf("1, 2, ");
 	while (C <= 95)
 	{
-		Cxx00 = Axx00 + Bxx00 , C00xx = A00xx + B00xx;
+		Cxx00 = Axx00 + Bxx00, C00xx = A00xx + B00xx;
 		if (Cxx00 > 1000)
 			C00xx = C00xx + 1, Cxx00 = Cxx00 - 1000;
 		if (C < 13)
@@ -30,6 +30,6 @@ int main(void)
 		Bxx00 = Axx00, B00xx = A00xx, A00xx = C00xx;
 		Axx00 = Cxx00, C++;
 	}
-	printf("%lu%lu \n", C00xx, Cxx00);
+	printf("%lu%lu\n", C00xx, Cxx00);
 	return (0);
 }
