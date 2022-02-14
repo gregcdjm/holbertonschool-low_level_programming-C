@@ -10,7 +10,7 @@ int main(void)
 	unsigned long C = 0, Axx00, A00xx, Bxx00, B00xx, Cxx00, C00xx;
 
 	Axx00 = 2, A00xx = 0, Bxx00 = 1, B00xx = 0;
-	printf("1, \n2, \n");
+	printf("1, 2, ");
 	while (C <= 97)
 	{
 		Cxx00 = Axx00 + Bxx00;
