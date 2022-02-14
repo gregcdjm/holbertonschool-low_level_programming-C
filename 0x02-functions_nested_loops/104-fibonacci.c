@@ -21,12 +21,12 @@ int main(void)
 			Cxx00 = Cxx00 - 1000;
 		}
 		if (C < 13)
-			printf("%lu, \n", Cxx00);
+			printf("%lu, ", Cxx00);
 		else if (Cxx00 < 100 && C <= 96)
-			printf("%lu0%lu, \n", C00xx, Cxx00);
+			printf("%lu0%lu, ", C00xx, Cxx00);
 		else if (C <= 96)
 		{
-			printf("%lu%lu, \n", C00xx, Cxx00);
+			printf("%lu%lu, ", C00xx, Cxx00);
 		} /*             above we print Fn(+1)*/
 		Bxx00 = Axx00;/*Here we do Fn(-1) = Fn*/
 		B00xx = A00xx;
