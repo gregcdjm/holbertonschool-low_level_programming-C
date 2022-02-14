@@ -24,7 +24,7 @@ int main(void)
 		}
 		else if (C <= 94)
 		{
-			printf("%lu%lu, ", C00xx, Cxx00);
+			printf("%lu%lu , ", C00xx, Cxx00);
 		}
 		Bxx00 = Axx00, B00xx = A00xx, A00xx = C00xx;
 		Axx00 = Cxx00, C++;
