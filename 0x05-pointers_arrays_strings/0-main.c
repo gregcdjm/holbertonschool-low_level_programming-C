@@ -2,20 +2,17 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * main - check the code
  *
  * Return: Always 0.
  */
 int main(void)
 {
-    int n;
+	int n;
 
-    n = 402;
-    printf("n=%d
-", n);
-    reset_to_98(&n);
-    printf("n=%d
-", n);
-    return (0);
+	n = 402;
+	printf("n=%d", n);
+	reset_to_98(&n);
+	printf("n=%d", n);
+	return (0);
 }
-
