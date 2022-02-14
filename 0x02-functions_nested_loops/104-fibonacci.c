@@ -18,17 +18,12 @@ int main(void)
 		if (C < 13)
 			printf("%lu, ", Cxx00);
 		else if (Cxx00 < 100 && C <= 94)
-		{
-			printf("%lu", C00xx), putchar(48);
-			printf("%lu, ", Cxx00);
-		}
+			printf("%lu%lu%lu, ", C00xx, C*0, Cxx00);
 		else if (C <= 94)
-		{
-			printf("%lu%lu , ", C00xx, Cxx00);
-		}
+			printf("%lu%lu, ", C00xx, Cxx00);
 		Bxx00 = Axx00, B00xx = A00xx, A00xx = C00xx;
 		Axx00 = Cxx00, C++;
 	}
-	printf("%lu%lu\n", C00xx, Cxx00);
+	printf("%lu%lu \n", C00xx, Cxx00);
 	return (0);
 }
