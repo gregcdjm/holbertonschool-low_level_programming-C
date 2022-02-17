@@ -7,15 +7,19 @@
  */
 char *cap_string(char *s)
 {
-	int i, isworld = 1;
+	int i;
+	int isworld = 1;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != 0; i++)
 	{
 		if (isworld == 1 && s[i] >= 97 && s[i] <= 122)
 		{
 			s[i] -= 32;
 		}
 		if (
+			s[i] == '\n' ||
+			s[i] == '\t' ||
+			s[i] == ' ' ||
 			s[i] == ',' ||
 			s[i] == ';' ||
 			s[i] == '.' ||
