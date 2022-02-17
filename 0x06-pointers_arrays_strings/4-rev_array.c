@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+ * reverse_array - check the code
+ * @a: an array of integers
+ * @n: the number of elements to swap
+ *
+ * Return: nothing.
+ */
+void reverse_array(int *a, int n)
+{
+	int b = 0;
+	char c;
+
+	while (b < n / 2)
+	{
+		c = a[b];
+		a[b] = a[n - b - 1];
+		a[n - b - 1] = c;
+		b++;
+	}
+}
