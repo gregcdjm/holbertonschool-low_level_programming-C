@@ -5,7 +5,7 @@
  * @dest: argum 1
  * @src: argum 2
  * @n: argum 3
- * Return - dest
+ * Return:  dest
  */
 
 char *_strncat(char *dest, char *src, int n)
@@ -23,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 		c++;
 		a++;
 	}
-       	return (dest);
+	return (dest);
 }
