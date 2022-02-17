@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _strcat - cat str
+ * _strncat - cat str
  * @dest: argum 1
  * @src: argum 2
- * Return: - dest
+ * @n: argum 3
+ * Return - dest
  */
 
-char *_strcat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int a = 0, b = 0, c = 0;
 
@@ -15,11 +16,12 @@ char *_strcat(char *dest, char *src)
 		a++;
 	while (src[b] != 0)
 		b++;
-	while (b >= c)
+	while (n > 0)
 	{
+		n = n - sizeof(src[c]);
 		dest[a] = src[c];
 		c++;
 		a++;
 	}
-	return (dest);
+       	return (dest);
 }
