@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_strncpy - cat strxsy
+ * _strncpy - cat strxsy
  * @dest: argum 1
  * @src: argum 2
  * @n: argum 3
- * Return - dest
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
@@ -15,7 +15,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		if(*src)
+		if (*src)
 		{
 			*dest = *src;
 			dest++;
