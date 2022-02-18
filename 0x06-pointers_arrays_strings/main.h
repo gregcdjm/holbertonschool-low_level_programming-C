@@ -7,3 +7,4 @@ char *string_toupper(char *str);
 char *cap_string(char *);
 int _putchar(char c);
 char *rot13(char *);
+void print_number(int n);
