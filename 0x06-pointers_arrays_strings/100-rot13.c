@@ -12,7 +12,7 @@ char *rot13(char *str)
 	int i = 0;
 	int f;
 
-	while (i < 99)
+	while (str[i] != 0)
 	{
 		f = 0;
 		while (((str[i] > 64 && str[i] < 91) || (str[i] > 96 && str[i] <
