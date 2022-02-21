@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _strchr - fils the first n bytes
@@ -18,5 +19,5 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 	}
-	return ('\0');
+	return (NULL);
 }
