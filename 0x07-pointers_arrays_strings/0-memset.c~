@@ -1,0 +1,10 @@
+#include "main.h"
+
+/**
+ *_memset - fils the first n bytes
+ * @s: pointer to s
+ * @b: constant byte
+ * @n: the n byte
+ * Return: s memory area
+/*
+
