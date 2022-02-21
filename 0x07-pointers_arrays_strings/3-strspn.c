@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strspn g
+ * _strspn - get things
  * @s: string
  * @accept: chars
  * Return: length
@@ -11,9 +11,9 @@ unsigned int _strspn(char *s, char *accept)
 {
 	int a, b, c = 0;
 
-	for (a = 0; accept[m] != 0; a++)
-		for (b = 0; s[n] != 0 && s[n] != ','; n++)
-			if (s[n] == accept[m])
+	for (a = 0; accept[a] != 0; a++)
+		for (b = 0; s[b] != 0 && s[b] != ','; b++)
+			if (s[b] == accept[a])
 				c++;
 	return (c);
 }
