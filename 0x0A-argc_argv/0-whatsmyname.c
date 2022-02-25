@@ -4,8 +4,8 @@
  * @argc: numbers of argu
  * Return: succes 0
  */
-int main(int argc)
+int main(int *argv[])
 {
-	printf("%d\n", argc);
+	printf("%s\n", argv[0]);
 	return (0);
 }
