@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+/**
+ * main - prints its name
+ * @argc: numbers of argu
+ * @argv: argu string
+ * Return: succes 0
+ */
+int main(int argc, char **argv)
+{
+	int multi;
+
+	multi = atoi(argv[1]);
+	multi *= atoi(argv[2]);
+	if (argc > 1)
+		printf("%d\n", multi);
+	else
+		printf("ERROR");
+	return (0);
+}
