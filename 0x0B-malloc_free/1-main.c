@@ -11,7 +11,7 @@ int main(void)
 {
     char *s;
 
-    s = _strdup("\0");
+    s = _strdup("Duplicated");
     if (s == NULL)
     {
         printf("failed to allocate memory\n");
