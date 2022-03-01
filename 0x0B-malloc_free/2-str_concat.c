@@ -12,8 +12,6 @@ char *str_concat(char *s1, char *s2)
 	char *a;
 	unsigned int i = 0, j = 0, c;
 
-	if (!s1 && !s2)
-		return (0);
 	if (s1)
 	for (; s1[i]; i++)
 		;
