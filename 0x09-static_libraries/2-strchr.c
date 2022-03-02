@@ -1,0 +1,23 @@
+#include "main.h"
+#include <stddef.h>
+
+/**
+ * _strchr - fils the first n bytes
+ * @s: pointer to dest
+ * @c: constant byte
+ * Return: NULL or c in s
+ */
+
+char *_strchr(char *s, char c)
+{
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (s[i] == c)
+			return (s + i);
+	}
+	if (s[i] == c)
+		return (s + i);
+	return ('\0');
+}
