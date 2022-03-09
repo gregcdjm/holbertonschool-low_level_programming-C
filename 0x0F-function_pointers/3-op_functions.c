@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "3-calc.h"
+#include <stdlib.h>
 /**
  * op_add - check if a number is equal to 98
  * @a: the integer to check
