@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include "3-calc.h"
+#include "function_pointers.h"
+
+/**
+ * main - check if a number is equal to 98
+ * @s: the integer to check
+ * @n:
+ * Return: a+b
+ */
+int main(int argc, char *argv[])
+{
+	int val, val2;
+
+	if (argc != 3)
+		printf("Error");
+	val = atoi(argv[0]);
+	val2 = atoi(argv[2]);
+	get_op_func(val, argv[0], val2);
+	return (0);
+}

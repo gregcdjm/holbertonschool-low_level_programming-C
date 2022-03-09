@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "3-calc.h"
+/**
+ * get_op_func - check if a number is equal to 98
+ * @s: the integer to check
+ *
+ * Return: a+b
+ */
+int (*get_op_func(char *s))(int, int);
+{
+    op_t ops[] = {
+        {"+", op_add},
+        {"-", op_sub},
+        {"*", op_mul},
+        {"/", op_div},
+        {"%", op_mod},
+        {NULL, NULL}
+    };
+    return (ops[s]);
+}
