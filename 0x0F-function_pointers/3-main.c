@@ -18,10 +18,10 @@ int main(int argc, char *argv[])
 		exit (98);
 	}
 	if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
-		{
-	    printf("Error\n");
-	    exit (99);
-		}
+	{
+		printf("Error\n");
+		exit (99);
+	}
 	val1 = atoi(argv[1]);
 	val2 = atoi(argv[3]);
 	printf ("%d\n", get_op_func(argv[2])(val1, val2));
