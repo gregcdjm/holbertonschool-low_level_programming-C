@@ -2,8 +2,8 @@
 
 /**
  * print_listint - print arg
- * @h: param
- * Return: size_t
+ * @h: arg
+ * Return: i
  */
 
 size_t print_listint(const listint_t *h)
