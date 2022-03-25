@@ -1,17 +1,19 @@
-#include "main.h"
+#include "lists.h"
 
 /**
-* clear_bit - fonction
-* @n: param
-* @index: param
-* Return: int
-*/
+ * free_listint - fonction
+ * @head: param
+ * Return: void
+ */
 
-int clear_bit(unsigned long int *n, unsigned int index)
+void free_listint(listint_t *head)
 {
-	if (n == NULL || index > 64)
-		return (-1);
+	listint_t *freenew;
 
-	*n = *n & ~(1 << index);
-	return (1);
+	while (head)
+	{
+		freenew = head->next;
+		free(head);
+		head = freenew;
+	}
 }
