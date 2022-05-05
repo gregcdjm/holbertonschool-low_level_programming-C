@@ -7,14 +7,13 @@
  * Return: the number of nodes
  */
 
-void free_list(sigset_t *head)
+void free_dlistint(dlistint_t *head)
 {
-	list_t *s;
+	dlistint_t *s;
 
 	for (; head;)
 	{
 		s = head->next;
-		free(head->str);
 		free(head);
 		head = s;
 	}
