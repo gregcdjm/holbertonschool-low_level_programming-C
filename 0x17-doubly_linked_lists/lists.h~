@@ -1,0 +1,10 @@
+#ifndef _MC_
+#define _MC_
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+
+
+
+#endif
