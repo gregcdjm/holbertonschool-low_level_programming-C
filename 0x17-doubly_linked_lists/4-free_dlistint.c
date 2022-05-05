@@ -7,7 +7,7 @@
  * Return: the number of nodes
  */
 
-void free_list(list_t *head)
+void free_list(sigset_t *head)
 {
 	list_t *s;
 
