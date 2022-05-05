@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * free_list - print element of structure list
+ * free_dlistint - print element of structure list
  * @head: what to print (with .str .len)
  * Return: the number of nodes
  */
