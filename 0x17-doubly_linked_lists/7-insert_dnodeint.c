@@ -22,27 +22,23 @@ size_t dlistint_len(const dlistint_t *h)
 
 /**
  * *insert_dnodeint_at_index - fonction that return a node at index
- * @head: List
+ * @h: List
+ * @idx: index
+ * @n: nomber
  * Return: add
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *tmp = *h;
-	dlistint_t *nouv/*, *tmp2*/;
+	dlistint_t *tmp = *h, *nouv;
 	size_t ok;
 
 	ok = dlistint_len(*h);
 	if (ok < idx)
 		return (NULL);
-        else if(*h == NULL || idx == 0)
-	{
+	else if (*h == NULL || idx == 0)
 		return (add_dnodeint(h, n));
-	}
-
-	else if(ok == idx)
-       	{
+	else if (ok == idx)
 		return (add_dnodeint_end(h, n));
-	}
 	while (idx != 1)
 	{
 		tmp = tmp->next;
@@ -58,8 +54,3 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 	tmp->next = nouv;
 	return (nouv);
 }
-	/*tmp2 = tmp->next;
-	tmp->next = nouv;
-	nouv->prev = tmp;
-	nouv->next = tmp2;
-	tmp2->prev = nouv;*/
