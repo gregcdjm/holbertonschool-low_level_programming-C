@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 /**
  * hash_table_set - adds data to ht
- * @value: the value of the key.
+ * @value: value of key.
  * @ht: tab ht
  * @key: data
  * Return: 1 or 0
@@ -14,7 +14,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	if (key == NULL || strcmp(key, "") == 0 || ht == NULL || value == NULL)
 		return (0);
 
-	idx = key_idx((const unsigned char *)key, ht->size);
+	idx = key_index((const unsigned char *)key, ht->size);
 	tmp = ht->array[idx];
 
 	while (tmp)
@@ -45,7 +45,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		free(ent->key);
 		return (0);
 	}
-	ent->next = ht->array[index];
-	ht->array[index] = ent;
+	ent->next = ht->array[idx];
+	ht->array[idx] = ent;
 	return (1);
 }
