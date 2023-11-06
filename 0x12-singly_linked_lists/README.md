@@ -1,1 +1,1 @@
-read moi
+Exercice linked list
